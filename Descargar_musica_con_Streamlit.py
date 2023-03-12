@@ -2,6 +2,7 @@ import streamlit as st
 from pytube import YouTube
 from pytube.exceptions import VideoUnavailable
 import re
+import pydub
 from pydub import AudioSegment
 import speech_recognition as sr
 
